@@ -1,0 +1,69 @@
+body {
+    background-color: #0c0a1a;
+    background-image: radial-gradient(circle at 50% 50%, #1a143a, #0c0a1a);
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    overflow: hidden; /* Prevents scrollbars from 3D content */
+}
+
+.main-title {
+    font-weight: 700;
+    color: #ffd700;
+    text-shadow: 0 0 5px #ffd700, 0 0 15px #ffd700, 0 0 25px #ffae00, 0 0 40px #ffae00;
+}
+
+#atom-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.label {
+    color: #f0e68c;
+    font-size: 16px;
+    text-shadow: 0 0 5px #f0e68c, 0 0 10px #f0e68c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.label:hover {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 8px #fff, 0 0 15px #fff;
+}
+
+.nucleus-label {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 8px #fff, 0 0 15px #fff, 0 0 25px #ffd700;
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: rgba(12, 10, 26, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffd700;
+    color: #fff;
+    box-shadow: 0 0 20px #ffd700;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ffd700;
+    color: #ffd700;
+    text-shadow: 0 0 5px #ffd700;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-body {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
